@@ -1,0 +1,25 @@
+html{
+  background-image: url('src/assets/images/2150293336.jpg');
+}
+
+
+.account, .login {
+  color: rgb(181, 165, 250);
+  text-decoration: none;
+  text-align: center;
+  display: inline;  
+  font-style:normal; 
+}
+
+.text-pe{
+  display: inline;
+  font-style:normal;
+  color: rgb(241, 233, 233);
+}
+
+.title, .card{
+  text-align: center;
+  display: block;
+  font-weight: 500;
+  color: rgb(246, 144, 255);
+}

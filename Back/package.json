@@ -1,28 +1,35 @@
 {
-  "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.19.2",
-    "morgan": "^1.10.0",
-    "nodemon": "^3.1.0",
-    "sequelize": "^6.37.1",
-    "typescript": "^5.4.3"
-  },
   "name": "back",
   "version": "1.0.0",
+  "description": "'back_school'",
   "main": "index.js",
-  "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^4.17.21",
-    "@types/morgan": "^1.9.9",
-    "@types/sequelize": "^4.28.20",
-    "@types/typescript": "^2.0.0"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon dist/index.js"
+    "dev": "nodemon dist/index.js",
+    "tsc": "tsc --watch"
   },
-  "keywords": [],
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "'deepalquemy2119'"
+  },
+  "author": "'talos9112'",
   "license": "ISC",
-  "description": ""
+  "dependencies": {
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/morgan": "^1.9.9",
+    "@types/nodemon": "^1.19.6",
+    "@types/sequelize": "^4.28.20",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.0",
+    "sequelize": "^6.37.2",
+    "typescript": "^5.4.4"
+  }
 }
