@@ -3,7 +3,7 @@ import ModelPersona from "../models/persona.model";
 import jwt from "jsonwebtoken"
 
 
-
+/* ---------------- GET LOGIN PERSONA ----------------- */
 export const getLoginPersona = async (req: Request, res: Response) => {
 
     const SECRET = process.env.SECRET;
@@ -61,8 +61,8 @@ export const getLoginPersona = async (req: Request, res: Response) => {
   }
 };
 
-// mostrar Todos los user
 
+/* ------------------ GET ALL PERSONAS ----------------- */
 export const getAllPersonas = async (req: Request, res: Response) => {
   try {
     const persona = await ModelPersona.findAll();
@@ -73,7 +73,7 @@ export const getAllPersonas = async (req: Request, res: Response) => {
   }
 };
 
-// mostrar una persona
+/*--------------- GET PERSONA ---------------- */
 
 export const getPersona = async (req: Request, res: Response) => {
 
@@ -90,8 +90,7 @@ export const getPersona = async (req: Request, res: Response) => {
   }
 };
 
-// crear una nueva persona
-
+/*--------------- CREATE PERSONA .-------------- */
 export const createPersona = async (req: Request, res: Response) => {
 
   try {
@@ -120,8 +119,7 @@ export const createPersona = async (req: Request, res: Response) => {
   }
 };
 
-// actualizar una persona
-
+/* ----------------- EDITAR PERSONA -----------------*/ 
 export const editPersona = async (req: Request, res: Response) => {
   try {
 
@@ -136,7 +134,7 @@ export const editPersona = async (req: Request, res: Response) => {
   }
 };
 
-// eliminar una persona
+/* -------------- DELETE PERSONA ---------------- */
 
 export const deletePersona = async (req: Request, res: Response) => {
   try {

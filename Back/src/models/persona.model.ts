@@ -12,6 +12,8 @@ const ModelPersona = connect.define('personas',{
 
     correo: { type:DataTypes.STRING(60), allowNull:false, unique:true, validate: { isEmail: true } },
 
+    type_persona: { type : DataTypes.STRING(50), allowNull:false },
+
     state: { type: DataTypes.BOOLEAN, allowNull:false },
 
     password: { type: DataTypes.STRING(11), allowNull:false, validate: { len: [3,12] } },
