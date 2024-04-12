@@ -1,5 +1,6 @@
 import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
+import { login } from './components/login.component'
 //import viteLogo from '/vite.svg'
 import './App.css'
 
@@ -12,7 +13,7 @@ function App() {
       <h2 className='title'>Smart School</h2>
       <div className="card">
         
-      <a href="https://www.nasa.com" className='login' target="_blank">
+      <a href="components/login.component.jsx" className='login' target="_blank">
           Login
         </a><br/><br/><br/><br/>
       
